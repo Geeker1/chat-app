@@ -1,27 +1,16 @@
-# Rapid-ChatXChannels
-A rapid fire tutorial and introduction of Django Channels. To get more in-depth check out the full course https://kirr.co/badl8e
+# Chat-App
+A simple Django Channels implementation
 
 
-YouTube Video: __coming soon__
-
-
-
-### Recommended Start
+### TO GET STARTED
 ```
-
-$ cd path/to/your/dev/folder
-$ mkdir channels-rapid
-$ cd channels-rapid
-$ git clone https://github.com/codingforentrepreneurs/Rapid-ChatXChannels .
-$ git reset a9a2c42052c87fd2eb5acdc417729f9359a1e087 --hard
-$ git remote remove origin
 $ virtualenv -p python3 .
 $ source bin/activate
-(channels-rapid) $ cd src
-(channels-rapid) $ pip install -r requirements.txt
-(channels-rapid) $ python manage.py createsuperuser
+(chat-app) $ cd src
+(chat-app) $ pip install -r requirements.txt
+(chat-app) $ python manage.py createsuperuser
 ... do the creation
-(channels-rapid) $ python manage.py createsuperuser
+(chat-app) $ python manage.py createsuperuser
 ... create second super user 
 ```
 
