@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<div class="">
+	{% for a in list %}
+	{% if request.user == a.first %}
+	<li><a href="{% url 'chat:main' a.second %}">{{ a.second }}</a></li>
+	{% else %}
+	<li><a href="{% url 'chat:main' a.first %}">{{ a.first }}</a></li>
+	{% endif %}
+	{% empty %}
+	<p>No user related</p>
+	{% endfor %}
+</div>
+
+{% endblock %}
